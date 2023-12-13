@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="679.0" prefWidth="1166.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="inventory_management.InventoryManagementScreenController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fb7813" height="118.0" stroke="BLACK" strokeType="INSIDE" width="1166.0" />
+      <Label layoutX="34.0" layoutY="37.0" text="Inventory Management" textFill="#f2eded">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Label>
+      <Label layoutX="932.0" layoutY="41.0" text="Ganesh (Admin)" textFill="#f5f0f0">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Circle fill="#631875" layoutX="882.0" layoutY="60.0" radius="31.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="867.0" layoutY="28.0" text="G" textFill="#f8f4f4">
+         <font>
+            <Font name="System Bold" size="43.0" />
+         </font>
+      </Label>
+      <Button fx:id="addBook" layoutX="389.0" layoutY="172.0" mnemonicParsing="false" onAction="#showAddBook" prefHeight="64.0" prefWidth="389.0" style="-fx-background-color: #fb7813;" text="Add Book" textFill="#fffdff">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="searchBook" layoutX="389.0" layoutY="348.0" mnemonicParsing="false" onAction="#showSearchBook" prefHeight="64.0" prefWidth="389.0" style="-fx-background-color: #fb7813;" text="Search Book" textFill="#fffdff">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="quit" layoutX="389.0" layoutY="515.0" mnemonicParsing="false" onAction="#quit" prefHeight="64.0" prefWidth="389.0" style="-fx-background-color: #f7fcfa; -fx-border-color: #f2180c;" text="Quit" textFill="#e42210">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="updateBook" layoutX="389.0" layoutY="260.0" mnemonicParsing="false" onAction="#showupdateBook" prefHeight="64.0" prefWidth="389.0" style="-fx-background-color: #fb7813;" text="Update Book" textFill="#fffdff">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="deleteBook" layoutX="389.0" layoutY="432.0" mnemonicParsing="false" onAction="#showDeleteBook" prefHeight="64.0" prefWidth="389.0" style="-fx-background-color: #fb7813;" text="Delete Book" textFill="#fffdff">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

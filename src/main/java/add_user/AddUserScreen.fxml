@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="passwordfield" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="1019.0" style="-fx-background-color: #f7fcfa;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="add_user.AddUserScreenController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fb7813" height="105.0" stroke="BLACK" strokeType="INSIDE" width="1019.0" />
+      <Circle fill="#631875" layoutX="774.0" layoutY="59.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="39.0" layoutY="31.0" text="Add User" textFill="#f8f6f6">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Label>
+      <Label layoutX="817.0" layoutY="41.0" text="Ganesh (Admin)" textFill="#f2e9e9">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="82.0" layoutY="123.0" text="User Name (English)">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="82.0" layoutY="201.0" text="Email">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="82.0" layoutY="425.0" text="Role">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="82.0" layoutY="274.0" text="Password">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="82.0" layoutY="346.0" text="Confirm Password">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="userName" layoutX="321.0" layoutY="123.0" prefHeight="48.0" prefWidth="625.0" />
+      <TextField fx:id="email" layoutX="321.0" layoutY="192.0" prefHeight="48.0" prefWidth="625.0" />
+      <TextField fx:id="confirmPassword" layoutX="321.0" layoutY="337.0" prefHeight="48.0" prefWidth="625.0" />
+      <TextField fx:id="passwordField" layoutX="321.0" layoutY="265.0" prefHeight="48.0" prefWidth="625.0" />
+      <TextField fx:id="role" layoutX="321.0" layoutY="416.0" prefHeight="48.0" prefWidth="625.0" />
+      <Button fx:id="save" layoutX="690.0" layoutY="556.0" mnemonicParsing="false" onAction="#saveDetails" prefHeight="48.0" prefWidth="255.0" style="-fx-background-color: #FF9209; -fx-background-color: #147d41;" text="Save" textFill="#fff9f9">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="close" layoutX="321.0" layoutY="555.0" mnemonicParsing="false" onAction="#backToUsermanagementScreen" prefHeight="48.0" prefWidth="255.0" style="-fx-border-color: #f2180c; -fx-background-color: white;" text="Close" textFill="RED">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Label layoutX="760.0" layoutY="31.0" text="G" textFill="#fff2f2">
+         <font>
+            <Font name="System Bold" size="39.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

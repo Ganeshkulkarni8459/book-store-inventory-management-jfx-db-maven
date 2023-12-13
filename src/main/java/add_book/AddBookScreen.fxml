@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="637.0" prefWidth="1005.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="add_book.AddBookScreenController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fb7813" height="105.0" stroke="BLACK" strokeType="INSIDE" width="1005.0" />
+      <Label layoutX="31.0" layoutY="25.0" text="Add Book" textFill="#f8f6f6">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Label>
+      <Label layoutX="798.0" layoutY="36.0" text="Ganesh (Admin)" textFill="#f2e9e9">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="740.0" layoutY="24.0" text="G" textFill="#ebe7e7">
+         <font>
+            <Font name="System Bold" size="41.0" />
+         </font>
+      </Label>
+      <Circle fill="#631875" layoutX="755.0" layoutY="53.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button fx:id="close" layoutX="349.0" layoutY="544.0" mnemonicParsing="false" onAction="#backToInventoryManagementScreen" prefHeight="48.0" prefWidth="255.0" style="-fx-border-color: #f2180c; -fx-background-color: #fbfcfa;" text="Close" textFill="RED">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="save" layoutX="692.0" layoutY="545.0" mnemonicParsing="false" onAction="#saveDetails" prefHeight="48.0" prefWidth="255.0" style="-fx-background-color: #FF9209; -fx-background-color: #147d41;" text="Save" textFill="#fff9f9">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <TextField fx:id="price" layoutX="343.0" layoutY="427.0" prefHeight="48.0" prefWidth="625.0" />
+      <TextField fx:id="authorName" layoutX="343.0" layoutY="280.0" prefHeight="48.0" prefWidth="625.0" />
+      <TextField fx:id="quantity" layoutX="343.0" layoutY="356.0" prefHeight="48.0" prefWidth="625.0" />
+      <TextField fx:id="bookISBN" layoutX="343.0" layoutY="203.0" prefHeight="48.0" prefWidth="625.0" />
+      <TextField fx:id="bookName" layoutX="343.0" layoutY="127.0" prefHeight="48.0" prefWidth="625.0" />
+      <Label layoutX="51.0" layoutY="356.0" text="Quantity">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="289.0" text="Author Name ">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="52.0" layoutY="436.0" text="Price">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="220.0" text="Book ISBN">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="135.0" text="Book Title">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="739.0" layoutY="20.0" text="G" textFill="#f2f2f2">
+         <font>
+            <Font name="System Bold" size="46.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

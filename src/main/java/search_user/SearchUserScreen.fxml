@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="701.0" prefWidth="1084.0" style="-fx-background-color: whiite;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="search_user.SearchUserScreenController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fb7813" height="119.0" layoutY="-1.0" stroke="BLACK" strokeType="INSIDE" width="1084.0" />
+      <Circle fill="#631875" layoutX="837.0" layoutY="54.0" radius="29.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="32.0" layoutY="33.0" text="Search User" textFill="#f2ebeb">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <Label layoutX="888.0" layoutY="38.0" text="Ganesh (Admin)" textFill="#eee9e9">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="824.0" layoutY="28.0" text="G" textFill="#fcf3f3">
+         <font>
+            <Font name="System Bold" size="37.0" />
+         </font>
+      </Label>
+      <Label layoutX="88.0" layoutY="153.0" />
+      <Label layoutX="79.0" layoutY="140.0" text="User Name To Search">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="79.0" layoutY="222.0" text="User Name (English)">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="79.0" layoutY="294.0" text="Email">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="440.0" text="Confirm Password">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="509.0" prefHeight="27.0" prefWidth="44.0" text="Role">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="77.0" layoutY="368.0" text="Password">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nameToSearch" layoutX="334.0" layoutY="132.0" prefHeight="45.0" prefWidth="503.0" />
+      <TextField fx:id="email" layoutX="334.0" layoutY="285.0" prefHeight="45.0" prefWidth="503.0" />
+      <TextField fx:id="userName" layoutX="334.0" layoutY="213.0" prefHeight="45.0" prefWidth="503.0" />
+      <TextField fx:id="password" layoutX="334.0" layoutY="359.0" prefHeight="45.0" prefWidth="503.0" />
+      <TextField fx:id="confirmPassword" layoutX="334.0" layoutY="431.0" prefHeight="45.0" prefWidth="503.0" />
+      <TextField fx:id="role" layoutX="334.0" layoutY="500.0" prefHeight="45.0" prefWidth="503.0" />
+      <Button fx:id="search" layoutX="888.0" layoutY="132.0" mnemonicParsing="false" onAction="#searchButton" prefHeight="45.0" prefWidth="176.0" style="-fx-background-color: #147d41; -fx-border-color: #2B3499;" text="Search" textFill="#ebe4e4">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="close" layoutX="334.0" layoutY="631.0" mnemonicParsing="false" onAction="#closeButton" prefHeight="48.0" prefWidth="188.0" style="-fx-border-color: #f2180c;" text="Close" textFill="#da1414">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="edit" layoutX="808.0" layoutY="631.0" mnemonicParsing="false" onAction="#editButton" prefHeight="48.0" prefWidth="188.0" style="-fx-background-color: #147d41;" text="Edit" textFill="#f2ecec">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="delete" layoutX="594.0" layoutY="631.0" mnemonicParsing="false" onAction="#deleteButton" prefHeight="48.0" prefWidth="188.0" style="-fx-border-color: #f2180c;" text="Delete" textFill="#e11e1e">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

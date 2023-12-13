@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="546.0" prefWidth="790.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="home_screen.HomeScreenController">
+   <children>
+      <Button fx:id="userManagement" layoutX="176.0" layoutY="159.0" mnemonicParsing="false" onAction="#showUserManagementScreen" prefHeight="54.0" prefWidth="436.0" style="-fx-background-color: #fb7813;" text="User Management" textFill="#f2eeeb">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="inventoryManagementScreen" layoutX="177.0" layoutY="256.0" mnemonicParsing="false" onAction="#showInventoryManagementScreen" prefHeight="54.0" prefWidth="436.0" style="-fx-background-color: #fb7813;" text=" Inventory Management" textFill="#f2eeee">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="backToHome" layoutX="178.0" layoutY="359.0" mnemonicParsing="false" onAction="#backToHomeScreen" prefHeight="54.0" prefWidth="436.0" style="-fx-background-color: #f7fcfa; -fx-border-color: #f2180c;" text="Quit" textFill="#ee0808">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fb7813" height="105.0" layoutX="-1.0" stroke="BLACK" strokeType="INSIDE" width="790.0" />
+      <Label layoutX="24.0" layoutY="28.0" text="Home Screen" textFill="#f4f7ff">
+         <font>
+            <Font name="System Bold" size="34.0" />
+         </font>
+      </Label>
+      <Circle fill="#631875" layoutX="592.0" layoutY="56.0" radius="28.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="579.0" layoutY="29.0" text="G" textFill="#fffbfb">
+         <font>
+            <Font name="System Bold" size="38.0" />
+         </font>
+      </Label>
+      <Label layoutX="627.0" layoutY="38.0" text="Ganesh (Admin)" textFill="#fffbfb">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
